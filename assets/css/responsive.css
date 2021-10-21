@@ -1,0 +1,96 @@
+/* MD */
+@media (max-width: 991px) {
+
+}
+
+/* Tablet-View */
+@media (min-width: 768px) and (max-width: 991px) {
+     header {
+     position: relative;
+     display: flex;
+     justify-content: space-between;
+  }
+  header h1 {
+     margin: 0;
+  }
+   .custom-navbar {
+     position: fixed;
+     z-index: 2;
+     top: 105px;
+     left: -100%;
+     width: 100%;
+     height: 100%;
+     background-color: #304ffe;
+     transition: all 0.5s ease;
+  }
+   .custom-navbar.open {
+     left: 0;
+  }
+   .custom-navbar li {
+     display: block;
+  }
+   .custom-navbar li a {
+     text-align: left;
+     border: 1px solid #637afe;
+  }
+   .menu-icon {
+     display: block;
+  }
+}
+
+
+
+
+
+
+/* XS */
+@media (max-width: 767px) {
+   header {
+     position: relative;
+     display: flex;
+     justify-content: space-between;
+  }
+  header h1 {
+     margin: 0;
+  }
+   .custom-navbar {
+     position: fixed;
+     z-index: 2;
+     top: 105px;
+     left: -100%;
+     width: 100%;
+     height: 100%;
+     background-color: #304ffe;
+     transition: all 0.5s ease;
+  }
+   .custom-navbar.open {
+     left: 0;
+  }
+   .custom-navbar li {
+     display: block;
+  }
+   .custom-navbar li a {
+     text-align: left;
+     border: 1px solid #637afe;
+  }
+   .menu-icon {
+     display: block;
+  }
+  .flex-row{
+   flex-direction: column !important;
+  }
+  .partner-flex{
+    flex-direction: column !important;
+  }
+
+
+
+
+
+
+
+
+
+}
+
+

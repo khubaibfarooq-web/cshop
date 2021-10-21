@@ -1,0 +1,33 @@
+.container-fluid,
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container{
+  max-width: 1236px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.container-fluid {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.flex-row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+}
+
+.flex-col-lg-6{
+  flex-basis: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.flex-col-lg-3{
+  flex-basis: 33.33%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
